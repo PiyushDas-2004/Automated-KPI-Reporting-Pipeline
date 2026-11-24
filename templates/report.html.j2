@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weekly Clinical Trials KPI Report</title>
+<style>
+  body { margin: 0; background: #f9f9f7; color: #0b0b0b; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 40px; }
+  .card { background: #fcfcfb; border: 1px solid rgba(11,11,11,0.10); border-radius: 8px; padding: 20px; margin-bottom: 16px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 16px; margin: 0 0 12px; }
+  .sub { color: #52514e; margin: 0; }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; font-weight: 600; color: #52514e; font-size: 12px; border-bottom: 1px solid #e1e0d9; padding: 6px 8px; }
+  td { padding: 6px 8px; border-bottom: 1px solid #efeee9; vertical-align: top; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .kpi-value { font-size: 20px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .good { color: #006300; } .bad { color: #d03b3b; } .neutral, .none { color: #52514e; }
+  .muted { color: #898781; font-size: 12px; }
+  ol.changes li { margin-bottom: 8px; }
+  img { max-width: 100%; height: auto; display: block; margin: 8px 0 16px; border-radius: 4px; }
+  .grid2 td { width: 50%; padding: 0 8px 0 0; border: 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="card">
+    <h1>Weekly Clinical Trials KPI Report</h1>
+    <p class="sub">Week of {{ r.week_label }} &middot; source: ClinicalTrials.gov API v2 &middot; run {{ r.run_date }}</p>
+  </div>
+
+  <div class="card">
+    <h2>Headline KPIs</h2>
+    <table>
+      <tr><th>KPI</th><th class="num">This week</th><th class="num">vs last week</th><th class="num">4-wk avg</th></tr>
+      {% for h in r.headlines %}
+      <tr>
+        <td>{{ h.label }}</td>
+        <td class="num"><span class="kpi-value">{{ h.value }}</span></td>
+        <td class="num {{ h.tone }}">{{ h.arrow }} {{ h.delta }}</td>
+        <td class="num">{{ h.rolling }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>3 things that changed this week</h2>
+    <ol class="changes">
+      {% for c in r.changes %}<li>{{ c }}</li>{% endfor %}
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Charts</h2>
+    {% for f in r.figures %}
+    <img src="{{ 'cid:' ~ f.cid if image_mode == 'cid' else 'figures/' ~ f.file }}" alt="{{ f.alt }}" width="720">
+    {% endfor %}
+  </div>
+
+  <div class="card">
+    <h2>New registrations by phase</h2>
+    <table>
+      <tr><th>Phase</th><th class="num">New trials</th><th class="num">WoW</th><th class="num">4-wk avg</th><th class="num">Median planned enrollment</th></tr>
+      {% set enroll = {} %}
+      {% for e in r.tables.enrollment %}{% set _ = enroll.update({e.name: e.value}) %}{% endfor %}
+      {% for row in r.tables.phase %}
+      <tr><td>{{ row.name }}</td><td class="num">{{ row.value }}</td><td class="num">{{ row.arrow }} {{ row.wow }}</td><td class="num">{{ row.avg }}</td><td class="num">{{ enroll.get(row.name, '-') }}</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  <div class="card">
+    <table class="grid2"><tr>
+      <td>
+        <h2>By sponsor class</h2>
+        <table>
+          <tr><th>Sponsor class</th><th class="num">New</th><th class="num">WoW</th></tr>
+          {% for row in r.tables.sponsor_class %}
+          <tr><td>{{ row.name }}</td><td class="num">{{ row.value }}</td><td class="num">{{ row.arrow }} {{ row.wow }}</td></tr>
+          {% endfor %}
+        </table>
+      </td>
+      <td>
+        <h2>Top 10 conditions</h2>
+        <table>
+          <tr><th>Condition</th><th class="num">New</th><th class="num">WoW</th></tr>
+          {% for row in r.tables.conditions %}
+          <tr><td>{{ row.name }}</td><td class="num">{{ row.value }}</td><td class="num">{{ row.arrow }} {{ row.wow }}</td></tr>
+          {% endfor %}
+        </table>
+      </td>
+    </tr></table>
+  </div>
+
+  <div class="card">
+    <h2>Status changes &amp; stopped trials</h2>
+    {% if r.transitions %}
+    <table>
+      <tr><th>From</th><th>To</th><th class="num">Trials</th></tr>
+      {% for t in r.transitions %}
+      <tr><td>{{ t.previous_status }}</td><td>{{ t.new_status }}</td><td class="num">{{ t.trials }}</td></tr>
+      {% endfor %}
+    </table>
+    {% else %}
+    <p class="muted">No confirmed (SCD2) status transitions were detected this week.</p>
+    {% endif %}
+    {% if r.is_backfill %}
+    <p class="muted">Stopped-trial counts are point-in-time and are not reported for backfilled weeks.</p>
+    {% else %}
+    <h2 style="margin-top:16px">Why trials stopped (updated this week, now terminated / withdrawn / suspended)</h2>
+    <table>
+      <tr><th>Reason category</th><th class="num">Trials</th><th class="num">WoW</th><th class="num">4-wk avg</th></tr>
+      {% for row in r.tables.stop_reasons %}
+      <tr><td>{{ row.name }}</td><td class="num">{{ row.value }}</td><td class="num">{{ row.arrow }} {{ row.wow }}</td><td class="num">{{ row.avg }}</td></tr>
+      {% endfor %}
+    </table>
+    {% endif %}
+    {% if r.stopped_trials %}
+    <h2 style="margin-top:16px">Notable stopped trials</h2>
+    <table>
+      <tr><th>Trial</th><th>Status</th><th>Sponsor</th><th>Reason given</th></tr>
+      {% for s in r.stopped_trials %}
+      <tr>
+        <td><a href="https://clinicaltrials.gov/study/{{ s.nct_id }}">{{ s.nct_id }}</a><br><span class="muted">{{ s.brief_title|truncate(90) }}</span></td>
+        <td>{{ s.overall_status }}</td>
+        <td>{{ s.lead_sponsor_name }}</td>
+        <td>{{ (s.why_stopped or 'Not provided')|truncate(120) }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+    {% endif %}
+  </div>
+
+  <div class="card">
+    <h2>Top countries by new trial sites</h2>
+    <table>
+      <tr><th>Country</th><th class="num">New sites</th><th class="num">WoW</th></tr>
+      {% for row in r.tables.countries %}
+      <tr><td>{{ row.name }}</td><td class="num">{{ row.value }}</td><td class="num">{{ row.arrow }} {{ row.wow }}</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Notes</h2>
+    <ul>{% for n in r.notes %}<li class="muted">{{ n }}</li>{% endfor %}</ul>
+    <p class="muted">Generated {{ r.generated_at }} by the Automated KPI Reporting Pipeline v{{ r.pipeline_version }} &middot; {{ r.weeks_of_history }} week(s) of history &middot; full dataset: reports/kpi_history.csv</p>
+  </div>
+
+</div>
+</body>
+</html>

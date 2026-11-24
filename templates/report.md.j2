@@ -1,0 +1,100 @@
+# Weekly Clinical Trials KPI Report
+
+**Week of {{ r.week_label }}** · source: ClinicalTrials.gov API v2 · run date {{ r.run_date }} · generated {{ r.generated_at }}
+
+## Headline KPIs
+
+| KPI | This week | vs last week | 4-wk avg |
+|---|---:|---:|---:|
+{% for h in r.headlines %}
+| {{ h.label }} | **{{ h.value }}** | {{ h.arrow }} {{ h.delta }} | {{ h.rolling }} |
+{% endfor %}
+
+## 3 things that changed this week
+
+{% for c in r.changes %}
+{{ loop.index }}. {{ c }}
+{% endfor %}
+
+## Charts
+
+{% for f in r.figures %}
+![{{ f.alt }}](figures/{{ f.file }})
+
+{% endfor %}
+## New registrations by phase
+
+{% set enroll = {} %}
+{% for e in r.tables.enrollment %}{% set _ = enroll.update({e.name: e.value}) %}{% endfor %}
+| Phase | New trials | WoW | 4-wk avg | Median planned enrollment |
+|---|---:|---:|---:|---:|
+{% for row in r.tables.phase %}
+| {{ row.name }} | {{ row.value }} | {{ row.arrow }} {{ row.wow }} | {{ row.avg }} | {{ enroll.get(row.name, '-') }} |
+{% endfor %}
+
+## By sponsor class
+
+| Sponsor class | New trials | WoW | 4-wk avg |
+|---|---:|---:|---:|
+{% for row in r.tables.sponsor_class %}
+| {{ row.name }} | {{ row.value }} | {{ row.arrow }} {{ row.wow }} | {{ row.avg }} |
+{% endfor %}
+
+## Top 10 conditions (new trials)
+
+| Condition | New trials | WoW |
+|---|---:|---:|
+{% for row in r.tables.conditions %}
+| {{ row.name }} | {{ row.value }} | {{ row.arrow }} {{ row.wow }} |
+{% endfor %}
+
+## Status changes and stopped trials
+
+{% if r.transitions %}
+| From | To | Trials |
+|---|---|---:|
+{% for t in r.transitions %}
+| {{ t.previous_status }} | {{ t.new_status }} | {{ t.trials }} |
+{% endfor %}
+{% else %}
+_No confirmed (SCD2) status transitions were detected this week._
+{% endif %}
+
+{% if r.is_backfill %}
+_Stopped-trial counts are point-in-time and are not reported for backfilled weeks._
+
+{% else %}
+**Why trials stopped** (updated this week, now terminated / withdrawn / suspended)
+
+| Reason category | Trials | WoW | 4-wk avg |
+|---|---:|---:|---:|
+{% for row in r.tables.stop_reasons %}
+| {{ row.name }} | {{ row.value }} | {{ row.arrow }} {{ row.wow }} | {{ row.avg }} |
+{% endfor %}
+
+{% endif %}
+{% if r.stopped_trials %}
+**Notable stopped trials**
+
+| Trial | Status | Sponsor | Reason given |
+|---|---|---|---|
+{% for s in r.stopped_trials %}
+| [{{ s.nct_id }}](https://clinicaltrials.gov/study/{{ s.nct_id }}) {{ s.brief_title|truncate(70)|replace('|', '/') }} | {{ s.overall_status }} | {{ s.lead_sponsor_name|replace('|', '/') }} | {{ (s.why_stopped or 'Not provided')|truncate(100)|replace('|', '/')|replace('\n', ' ') }} |
+{% endfor %}
+{% endif %}
+
+## Top countries by new trial sites
+
+| Country | New sites | WoW |
+|---|---:|---:|
+{% for row in r.tables.countries %}
+| {{ row.name }} | {{ row.value }} | {{ row.arrow }} {{ row.wow }} |
+{% endfor %}
+
+## Notes
+
+{% for n in r.notes %}
+- {{ n }}
+{% endfor %}
+
+_Automated KPI Reporting Pipeline v{{ r.pipeline_version }} · {{ r.weeks_of_history }} week(s) of history · full dataset: [kpi_history.csv](kpi_history.csv)_
