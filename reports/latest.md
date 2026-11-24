@@ -1,6 +1,6 @@
 # Weekly Clinical Trials KPI Report
 
-**Week of 16 Nov 2026 - 22 Nov 2026** · source: ClinicalTrials.gov API v2 · run date 2026-11-24 · generated 2026-11-24 15:05 UTC
+**Week of 16 Nov 2026 - 22 Nov 2026** · source: ClinicalTrials.gov API v2 · run date 2026-11-24 · generated 2026-11-24 18:38 UTC
 
 ## Headline KPIs
 
