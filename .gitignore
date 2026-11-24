@@ -1,0 +1,16 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+
+# Local data (rebuilt every run; the parquet snapshot in data/state/ IS committed)
+data/raw/
+*.duckdb
+*.duckdb.wal
+logs/
