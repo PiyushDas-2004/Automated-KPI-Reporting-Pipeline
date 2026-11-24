@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Weekly Clinical Trials KPI Report</title>
+<style>
+  body { margin: 0; background: #f9f9f7; color: #0b0b0b; font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 24px 16px 40px; }
+  .card { background: #fcfcfb; border: 1px solid rgba(11,11,11,0.10); border-radius: 8px; padding: 20px; margin-bottom: 16px; }
+  h1 { font-size: 22px; margin: 0 0 4px; }
+  h2 { font-size: 16px; margin: 0 0 12px; }
+  .sub { color: #52514e; margin: 0; }
+  table { width: 100%; border-collapse: collapse; }
+  th { text-align: left; font-weight: 600; color: #52514e; font-size: 12px; border-bottom: 1px solid #e1e0d9; padding: 6px 8px; }
+  td { padding: 6px 8px; border-bottom: 1px solid #efeee9; vertical-align: top; }
+  td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .kpi-value { font-size: 20px; font-weight: 600; font-variant-numeric: tabular-nums; }
+  .good { color: #006300; } .bad { color: #d03b3b; } .neutral, .none { color: #52514e; }
+  .muted { color: #898781; font-size: 12px; }
+  ol.changes li { margin-bottom: 8px; }
+  img { max-width: 100%; height: auto; display: block; margin: 8px 0 16px; border-radius: 4px; }
+  .grid2 td { width: 50%; padding: 0 8px 0 0; border: 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="card">
+    <h1>Weekly Clinical Trials KPI Report</h1>
+    <p class="sub">Week of 09 Nov 2026 - 15 Nov 2026 &middot; source: ClinicalTrials.gov API v2 &middot; run 2026-11-16</p>
+  </div>
+
+  <div class="card">
+    <h2>Headline KPIs</h2>
+    <table>
+      <tr><th>KPI</th><th class="num">This week</th><th class="num">vs last week</th><th class="num">4-wk avg</th></tr>
+      <tr>
+        <td>New trials registered</td>
+        <td class="num"><span class="kpi-value">1,028</span></td>
+        <td class="num neutral">▼ -177 (-14.7%) vs last week</td>
+        <td class="num">1,110</td>
+      </tr>
+      <tr>
+        <td>Confirmed status changes</td>
+        <td class="num"><span class="kpi-value">0</span></td>
+        <td class="num neutral">▬ +0 vs last week</td>
+        <td class="num">0</td>
+      </tr>
+      <tr>
+        <td>Industry-sponsored share of new trials</td>
+        <td class="num"><span class="kpi-value">15.2%</span></td>
+        <td class="num neutral">▲ +0.4 pts vs last week</td>
+        <td class="num">15.3%</td>
+      </tr>
+      <tr>
+        <td>Median planned enrollment (new trials)</td>
+        <td class="num"><span class="kpi-value">90</span></td>
+        <td class="num neutral">▲ +10 (+12.5%) vs last week</td>
+        <td class="num">86</td>
+      </tr>
+      <tr>
+        <td>New trial sites</td>
+        <td class="num"><span class="kpi-value">2,088</span></td>
+        <td class="num neutral">▼ -302 (-12.6%) vs last week</td>
+        <td class="num">2,124</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>3 things that changed this week</h2>
+    <ol class="changes">
+<li>New trial registrations fell 15% week over week (1,205 → 1,028), below the 4-week average of 1,110.</li><li>New Phase 2/3 registrations rose 50% week over week (8 → 12), above the 4-week average of 10 (overall: -15%).</li><li>New trials in Anxiety rose 23% week over week (13 → 16), above the 4-week average of 13.5 (overall: -15%).</li>    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Charts</h2>
+    <img src="figures/weekly_new_trials.png" alt="New trials registered per week with 4-week rolling average" width="720">
+    <img src="figures/new_trials_by_phase.png" alt="New trials by phase this week versus the 4-week average" width="720">
+    <img src="figures/top_countries_new_sites.png" alt="Top 10 countries by new trial sites this week" width="720">
+  </div>
+
+  <div class="card">
+    <h2>New registrations by phase</h2>
+    <table>
+      <tr><th>Phase</th><th class="num">New trials</th><th class="num">WoW</th><th class="num">4-wk avg</th><th class="num">Median planned enrollment</th></tr>
+      <tr><td>Early Phase 1</td><td class="num">7</td><td class="num">▬ +0</td><td class="num">10.2</td><td class="num">20</td></tr>
+      <tr><td>Phase 1</td><td class="num">54</td><td class="num">▼ -19</td><td class="num">58.5</td><td class="num">42</td></tr>
+      <tr><td>Phase 1/2</td><td class="num">16</td><td class="num">▼ -3</td><td class="num">19</td><td class="num">68</td></tr>
+      <tr><td>Phase 2</td><td class="num">70</td><td class="num">▼ -22</td><td class="num">80.5</td><td class="num">86</td></tr>
+      <tr><td>Phase 2/3</td><td class="num">12</td><td class="num">▲ +4</td><td class="num">10</td><td class="num">178</td></tr>
+      <tr><td>Phase 3</td><td class="num">39</td><td class="num">▼ -5</td><td class="num">41.8</td><td class="num">312</td></tr>
+      <tr><td>Phase 4</td><td class="num">37</td><td class="num">▼ -6</td><td class="num">39</td><td class="num">95</td></tr>
+      <tr><td>Not applicable</td><td class="num">565</td><td class="num">▼ -91</td><td class="num">591</td><td class="num">75</td></tr>
+      <tr><td>Observational / other</td><td class="num">228</td><td class="num">▼ -35</td><td class="num">260</td><td class="num">200</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <table class="grid2"><tr>
+      <td>
+        <h2>By sponsor class</h2>
+        <table>
+          <tr><th>Sponsor class</th><th class="num">New</th><th class="num">WoW</th></tr>
+          <tr><td>OTHER</td><td class="num">819</td><td class="num">▼ -146</td></tr>
+          <tr><td>INDUSTRY</td><td class="num">156</td><td class="num">▼ -22</td></tr>
+          <tr><td>OTHER_GOV</td><td class="num">39</td><td class="num">▼ -9</td></tr>
+          <tr><td>UNKNOWN</td><td class="num">5</td><td class="num">▲ +1</td></tr>
+          <tr><td>FED</td><td class="num">4</td><td class="num">▲ +3</td></tr>
+          <tr><td>NETWORK</td><td class="num">3</td><td class="num">▼ -3</td></tr>
+          <tr><td>NIH</td><td class="num">2</td><td class="num">▼ -1</td></tr>
+        </table>
+      </td>
+      <td>
+        <h2>Top 10 conditions</h2>
+        <table>
+          <tr><th>Condition</th><th class="num">New</th><th class="num">WoW</th></tr>
+          <tr><td>Anxiety</td><td class="num">16</td><td class="num">▲ +3</td></tr>
+          <tr><td>Stroke</td><td class="num">15</td><td class="num">▬ +0</td></tr>
+          <tr><td>Postoperative Pain</td><td class="num">12</td><td class="num">▼ -1</td></tr>
+          <tr><td>Depression</td><td class="num">10</td><td class="num">– </td></tr>
+          <tr><td>Colorectal Cancer</td><td class="num">8</td><td class="num">– </td></tr>
+          <tr><td>Multiple Sclerosis</td><td class="num">8</td><td class="num">– </td></tr>
+          <tr><td>Obesity &amp; Overweight</td><td class="num">8</td><td class="num">– </td></tr>
+          <tr><td>Pain</td><td class="num">8</td><td class="num">– </td></tr>
+          <tr><td>Breast Cancer</td><td class="num">7</td><td class="num">▼ -4</td></tr>
+          <tr><td>Cancer</td><td class="num">7</td><td class="num">– </td></tr>
+        </table>
+      </td>
+    </tr></table>
+  </div>
+
+  <div class="card">
+    <h2>Status changes &amp; stopped trials</h2>
+    <p class="muted">No confirmed (SCD2) status transitions were detected this week.</p>
+    <p class="muted">Stopped-trial counts are point-in-time and are not reported for backfilled weeks.</p>
+  </div>
+
+  <div class="card">
+    <h2>Top countries by new trial sites</h2>
+    <table>
+      <tr><th>Country</th><th class="num">New sites</th><th class="num">WoW</th></tr>
+      <tr><td>United States</td><td class="num">489</td><td class="num">▼ -1</td></tr>
+      <tr><td>China</td><td class="num">257</td><td class="num">▼ -230</td></tr>
+      <tr><td>Spain</td><td class="num">115</td><td class="num">▲ +54</td></tr>
+      <tr><td>Turkey (Türkiye)</td><td class="num">114</td><td class="num">▼ -15</td></tr>
+      <tr><td>France</td><td class="num">101</td><td class="num">▲ +9</td></tr>
+      <tr><td>Italy</td><td class="num">77</td><td class="num">▼ -39</td></tr>
+      <tr><td>Egypt</td><td class="num">76</td><td class="num">▲ +8</td></tr>
+      <tr><td>Germany</td><td class="num">60</td><td class="num">– </td></tr>
+      <tr><td>Poland</td><td class="num">52</td><td class="num">– </td></tr>
+      <tr><td>South Korea</td><td class="num">52</td><td class="num">– </td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>Notes</h2>
+    <ul><li class="muted">Confirmed status changes come from the SCD2 history: a change is only counted once a study has been seen before with a different status. The count grows as the warehouse accumulates weekly snapshots.</li><li class="muted">This week was loaded after the fact (backfill), so point-in-time KPIs (registry updates, stopped trials) are not reported for it.</li><li class="muted">Planned enrollment uses trials whose enrollment type is ESTIMATED. Month-only registry dates are normalised to the 1st of the month.</li></ul>
+    <p class="muted">Generated 2026-11-24 15:02 UTC by the Automated KPI Reporting Pipeline v1.0.0 &middot; 8 week(s) of history &middot; full dataset: reports/kpi_history.csv</p>
+  </div>
+
+</div>
+</body>
+</html>

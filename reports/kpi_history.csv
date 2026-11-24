@@ -1,0 +1,566 @@
+week_start,week_end,kpi_name,dimension,dimension_value,value,prev_week_value,wow_change,wow_pct,rolling_4wk_avg,weeks_in_rolling_avg,run_date,is_backfill,pipeline_version
+2026-09-21,2026-09-27,countries_with_new_sites,total,All,73.0,,,,73.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,industry_share_new_trials_pct,total,All,15.5,,,,15.5,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,median_planned_enrollment,phase,Early Phase 1,30.0,,,,30.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,median_planned_enrollment,phase,Not applicable,66.0,,,,66.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,median_planned_enrollment,phase,Observational / other,130.0,,,,130.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,median_planned_enrollment,phase,Phase 1,47.0,,,,47.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,median_planned_enrollment,phase,Phase 1/2,51.5,,,,51.5,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,median_planned_enrollment,phase,Phase 2,60.0,,,,60.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,median_planned_enrollment,phase,Phase 2/3,480.0,,,,480.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,median_planned_enrollment,phase,Phase 3,251.0,,,,251.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,median_planned_enrollment,phase,Phase 4,109.0,,,,109.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,median_planned_enrollment,total,All,88.0,,,,88.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,country_top10,Canada,45.0,,,,45.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,country_top10,China,297.0,,,,297.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,country_top10,Egypt,53.0,,,,53.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,country_top10,France,109.0,,,,109.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,country_top10,India,50.0,,,,50.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,country_top10,Pakistan,40.0,,,,40.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,country_top10,Spain,40.0,,,,40.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,country_top10,Turkey (Türkiye),119.0,,,,119.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,country_top10,United Kingdom,49.0,,,,49.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,country_top10,United States,317.0,,,,317.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trial_sites,total,All,1568.0,,,,1568.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,condition_top10,Anxiety,7.0,,,,7.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,condition_top10,Breast Cancer,14.0,,,,14.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,condition_top10,Coronary Artery Disease,8.0,,,,8.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,condition_top10,Critical Illness,9.0,,,,9.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,condition_top10,Dementia,9.0,,,,9.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,condition_top10,Healthy,7.0,,,,7.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,condition_top10,Healthy Volunteers,9.0,,,,9.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,condition_top10,Hypertension,7.0,,,,7.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,condition_top10,Obesity & Overweight,9.0,,,,9.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,condition_top10,Postoperative Pain,14.0,,,,14.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,phase,Early Phase 1,10.0,,,,10.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,phase,Not applicable,569.0,,,,569.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,phase,Observational / other,250.0,,,,250.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,phase,Phase 1,51.0,,,,51.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,phase,Phase 1/2,16.0,,,,16.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,phase,Phase 2,86.0,,,,86.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,phase,Phase 2/3,10.0,,,,10.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,phase,Phase 3,44.0,,,,44.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,phase,Phase 4,38.0,,,,38.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,sponsor_class,AMBIG,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,sponsor_class,FED,5.0,,,,5.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,sponsor_class,INDIV,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,sponsor_class,INDUSTRY,166.0,,,,166.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,sponsor_class,NETWORK,4.0,,,,4.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,sponsor_class,NIH,1.0,,,,1.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,sponsor_class,OTHER,853.0,,,,853.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,sponsor_class,OTHER_GOV,43.0,,,,43.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,sponsor_class,UNKNOWN,2.0,,,,2.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,study_type,INTERVENTIONAL,824.0,,,,824.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,study_type,OBSERVATIONAL,248.0,,,,248.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,study_type,UNKNOWN,2.0,,,,2.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,new_trials,total,All,1074.0,,,,1074.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,ACTIVE_NOT_RECRUITING,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,APPROVED_FOR_MARKETING,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,AVAILABLE,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,COMPLETED,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,ENROLLING_BY_INVITATION,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,NOT_YET_RECRUITING,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,NO_LONGER_AVAILABLE,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,RECRUITING,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,SUSPENDED,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,TEMPORARILY_NOT_AVAILABLE,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,TERMINATED,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,UNKNOWN,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,WITHDRAWN,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,to_status,WITHHELD,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-21,2026-09-27,status_changes,total,All,0.0,,,,0.0,1,2026-09-28,True,1.0.0
+2026-09-28,2026-10-04,countries_with_new_sites,total,All,79.0,73.0,6.0,8.2,76.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,industry_share_new_trials_pct,total,All,15.1,15.5,-0.40000000000000036,-2.6,15.3,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,median_planned_enrollment,phase,Early Phase 1,5.0,30.0,-25.0,-83.3,17.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,median_planned_enrollment,phase,Not applicable,70.0,66.0,4.0,6.1,68.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,median_planned_enrollment,phase,Observational / other,120.0,130.0,-10.0,-7.7,125.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,median_planned_enrollment,phase,Phase 1,31.0,47.0,-16.0,-34.0,39.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,median_planned_enrollment,phase,Phase 1/2,84.0,51.5,32.5,63.1,67.75,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,median_planned_enrollment,phase,Phase 2,62.5,60.0,2.5,4.2,61.25,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,median_planned_enrollment,phase,Phase 2/3,80.0,480.0,-400.0,-83.3,280.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,median_planned_enrollment,phase,Phase 3,330.0,251.0,79.0,31.5,290.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,median_planned_enrollment,phase,Phase 4,90.0,109.0,-19.0,-17.4,99.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,median_planned_enrollment,total,All,80.0,88.0,-8.0,-9.1,84.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,country_top10,China,287.0,297.0,-10.0,-3.4,292.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,country_top10,Egypt,54.0,53.0,1.0,1.9,53.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,country_top10,France,135.0,109.0,26.0,23.9,122.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,country_top10,Germany,69.0,,,,69.0,1,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,country_top10,Italy,49.0,,,,49.0,1,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,country_top10,South Korea,52.0,,,,52.0,1,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,country_top10,Spain,95.0,40.0,55.0,137.5,67.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,country_top10,Turkey (Türkiye),130.0,119.0,11.0,9.2,124.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,country_top10,United Kingdom,57.0,49.0,8.0,16.3,53.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,country_top10,United States,505.0,317.0,188.0,59.3,411.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trial_sites,total,All,2061.0,1568.0,493.0,31.4,1814.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,condition_top10,Anxiety,15.0,7.0,8.0,114.3,11.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,condition_top10,Cancer,9.0,,,,9.0,1,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,condition_top10,Coronary Artery Disease,11.0,8.0,3.0,37.5,9.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,condition_top10,Depression,8.0,,,,8.0,1,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,condition_top10,Healthy Volunteers,9.0,9.0,0.0,0.0,9.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,condition_top10,Heart Failure,9.0,,,,9.0,1,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,condition_top10,Multiple Sclerosis,8.0,,,,8.0,1,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,condition_top10,Obesity,12.0,,,,12.0,1,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,condition_top10,Pain,9.0,,,,9.0,1,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,condition_top10,Postoperative Pain,18.0,14.0,4.0,28.6,16.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,phase,Early Phase 1,1.0,10.0,-9.0,-90.0,5.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,phase,Not applicable,529.0,569.0,-40.0,-7.0,549.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,phase,Observational / other,278.0,250.0,28.0,11.2,264.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,phase,Phase 1,54.0,51.0,3.0,5.9,52.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,phase,Phase 1/2,17.0,16.0,1.0,6.3,16.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,phase,Phase 2,67.0,86.0,-19.0,-22.1,76.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,phase,Phase 2/3,8.0,10.0,-2.0,-20.0,9.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,phase,Phase 3,33.0,44.0,-11.0,-25.0,38.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,phase,Phase 4,45.0,38.0,7.0,18.4,41.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,sponsor_class,AMBIG,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,sponsor_class,FED,2.0,5.0,-3.0,-60.0,3.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,sponsor_class,INDIV,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,sponsor_class,INDUSTRY,156.0,166.0,-10.0,-6.0,161.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,sponsor_class,NETWORK,4.0,4.0,0.0,0.0,4.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,sponsor_class,NIH,1.0,1.0,0.0,0.0,1.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,sponsor_class,OTHER,832.0,853.0,-21.0,-2.5,842.5,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,sponsor_class,OTHER_GOV,35.0,43.0,-8.0,-18.6,39.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,sponsor_class,UNKNOWN,2.0,2.0,0.0,0.0,2.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,study_type,INTERVENTIONAL,754.0,824.0,-70.0,-8.5,789.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,study_type,OBSERVATIONAL,276.0,248.0,28.0,11.3,262.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,study_type,UNKNOWN,2.0,2.0,0.0,0.0,2.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,new_trials,total,All,1032.0,1074.0,-42.0,-3.9,1053.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,ACTIVE_NOT_RECRUITING,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,APPROVED_FOR_MARKETING,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,AVAILABLE,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,COMPLETED,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,ENROLLING_BY_INVITATION,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,NOT_YET_RECRUITING,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,NO_LONGER_AVAILABLE,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,RECRUITING,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,SUSPENDED,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,TEMPORARILY_NOT_AVAILABLE,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,TERMINATED,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,UNKNOWN,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,WITHDRAWN,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,to_status,WITHHELD,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-09-28,2026-10-04,status_changes,total,All,0.0,0.0,0.0,,0.0,2,2026-10-05,True,1.0.0
+2026-10-05,2026-10-11,countries_with_new_sites,total,All,76.0,79.0,-3.0,-3.8,76.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,industry_share_new_trials_pct,total,All,14.4,15.1,-0.6999999999999993,-4.6,15.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,median_planned_enrollment,phase,Early Phase 1,48.0,5.0,43.0,860.0,27.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,median_planned_enrollment,phase,Not applicable,70.0,70.0,0.0,0.0,68.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,median_planned_enrollment,phase,Observational / other,112.0,120.0,-8.0,-6.7,120.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,median_planned_enrollment,phase,Phase 1,42.5,31.0,11.5,37.1,40.17,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,median_planned_enrollment,phase,Phase 1/2,100.0,84.0,16.0,19.0,78.5,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,median_planned_enrollment,phase,Phase 2,73.0,62.5,10.5,16.8,65.17,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,median_planned_enrollment,phase,Phase 2/3,75.0,80.0,-5.0,-6.3,211.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,median_planned_enrollment,phase,Phase 3,307.0,330.0,-23.0,-7.0,296.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,median_planned_enrollment,phase,Phase 4,99.5,90.0,9.5,10.6,99.5,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,median_planned_enrollment,total,All,90.0,80.0,10.0,12.5,86.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,country_top10,China,268.0,287.0,-19.0,-6.6,284.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,country_top10,Egypt,60.0,54.0,6.0,11.1,55.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,country_top10,France,82.0,135.0,-53.0,-39.3,108.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,country_top10,India,59.0,,,,54.5,2,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,country_top10,Italy,79.0,49.0,30.0,61.2,64.0,2,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,country_top10,Poland,67.0,,,,67.0,1,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,country_top10,Spain,88.0,95.0,-7.0,-7.4,74.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,country_top10,Turkey (Türkiye),163.0,130.0,33.0,25.4,137.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,country_top10,United Kingdom,57.0,57.0,0.0,0.0,54.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,country_top10,United States,624.0,505.0,119.0,23.6,482.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trial_sites,total,All,2282.0,2061.0,221.0,10.7,1970.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,condition_top10,Anxiety,16.0,15.0,1.0,6.7,12.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,condition_top10,Breast Cancer,10.0,,,,12.0,2,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,condition_top10,Cancer,7.0,9.0,-2.0,-22.2,8.0,2,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,condition_top10,Chronic Pain,6.0,,,,6.0,1,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,condition_top10,Depression,7.0,8.0,-1.0,-12.5,7.5,2,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,condition_top10,Obesity,8.0,12.0,-4.0,-33.3,10.0,2,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,condition_top10,Postoperative Pain,9.0,18.0,-9.0,-50.0,13.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,condition_top10,Quality of Life,7.0,,,,7.0,1,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,condition_top10,Sepsis,9.0,,,,9.0,1,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,condition_top10,Stroke,8.0,,,,8.0,1,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,phase,Early Phase 1,5.0,1.0,4.0,400.0,5.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,phase,Not applicable,546.0,529.0,17.0,3.2,548.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,phase,Observational / other,255.0,278.0,-23.0,-8.3,261.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,phase,Phase 1,40.0,54.0,-14.0,-25.9,48.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,phase,Phase 1/2,17.0,17.0,0.0,0.0,16.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,phase,Phase 2,64.0,67.0,-3.0,-4.5,72.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,phase,Phase 2/3,7.0,8.0,-1.0,-12.5,8.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,phase,Phase 3,32.0,33.0,-1.0,-3.0,36.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,phase,Phase 4,37.0,45.0,-8.0,-17.8,40.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,sponsor_class,AMBIG,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,sponsor_class,FED,3.0,2.0,1.0,50.0,3.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,sponsor_class,INDIV,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,sponsor_class,INDUSTRY,144.0,156.0,-12.0,-7.7,155.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,sponsor_class,NETWORK,3.0,4.0,-1.0,-25.0,3.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,sponsor_class,NIH,3.0,1.0,2.0,200.0,1.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,sponsor_class,OTHER,796.0,832.0,-36.0,-4.3,827.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,sponsor_class,OTHER_GOV,50.0,35.0,15.0,42.9,42.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,sponsor_class,UNKNOWN,4.0,2.0,2.0,100.0,2.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,study_type,EXPANDED_ACCESS,3.0,,,,3.0,1,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,study_type,INTERVENTIONAL,748.0,754.0,-6.0,-0.8,775.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,study_type,OBSERVATIONAL,248.0,276.0,-28.0,-10.1,257.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,study_type,UNKNOWN,4.0,2.0,2.0,100.0,2.67,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,new_trials,total,All,1003.0,1032.0,-29.0,-2.8,1036.33,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,ACTIVE_NOT_RECRUITING,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,APPROVED_FOR_MARKETING,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,AVAILABLE,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,COMPLETED,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,ENROLLING_BY_INVITATION,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,NOT_YET_RECRUITING,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,NO_LONGER_AVAILABLE,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,RECRUITING,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,SUSPENDED,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,TEMPORARILY_NOT_AVAILABLE,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,TERMINATED,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,UNKNOWN,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,WITHDRAWN,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,to_status,WITHHELD,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-05,2026-10-11,status_changes,total,All,0.0,0.0,0.0,,0.0,3,2026-10-12,True,1.0.0
+2026-10-12,2026-10-18,countries_with_new_sites,total,All,74.0,76.0,-2.0,-2.6,75.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,industry_share_new_trials_pct,total,All,15.0,14.4,0.5999999999999996,4.2,15.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,median_planned_enrollment,phase,Early Phase 1,35.0,48.0,-13.0,-27.1,29.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,median_planned_enrollment,phase,Not applicable,66.0,70.0,-4.0,-5.7,68.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,median_planned_enrollment,phase,Observational / other,134.5,112.0,22.5,20.1,124.13,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,median_planned_enrollment,phase,Phase 1,64.0,42.5,21.5,50.6,46.13,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,median_planned_enrollment,phase,Phase 1/2,60.0,100.0,-40.0,-40.0,73.88,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,median_planned_enrollment,phase,Phase 2,76.0,73.0,3.0,4.1,67.88,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,median_planned_enrollment,phase,Phase 2/3,108.0,75.0,33.0,44.0,185.75,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,median_planned_enrollment,phase,Phase 3,398.0,307.0,91.0,29.6,321.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,median_planned_enrollment,phase,Phase 4,112.0,99.5,12.5,12.6,102.63,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,median_planned_enrollment,total,All,88.0,90.0,-2.0,-2.2,86.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,country_top10,China,239.0,268.0,-29.0,-10.8,272.75,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,country_top10,Denmark,30.0,,,,30.0,1,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,country_top10,Egypt,59.0,60.0,-1.0,-1.7,56.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,country_top10,France,92.0,82.0,10.0,12.2,104.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,country_top10,Italy,63.0,79.0,-16.0,-20.3,63.67,3,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,country_top10,South Korea,19.0,,,,35.5,2,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,country_top10,Spain,38.0,88.0,-50.0,-56.8,65.25,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,country_top10,Turkey (Türkiye),102.0,163.0,-61.0,-37.4,128.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,country_top10,United Kingdom,27.0,57.0,-30.0,-52.6,47.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,country_top10,United States,259.0,624.0,-365.0,-58.5,426.25,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trial_sites,total,All,1268.0,2282.0,-1014.0,-44.4,1794.75,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,condition_top10,Anxiety,11.0,16.0,-5.0,-31.3,12.25,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,condition_top10,Body Composition,4.0,,,,4.0,1,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,condition_top10,Breast Cancer,9.0,10.0,-1.0,-10.0,11.0,3,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,condition_top10,Colorectal Cancer,5.0,,,,5.0,1,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,condition_top10,Coronary Artery Disease,8.0,,,,9.0,3,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,condition_top10,Hypertension,6.0,,,,6.5,2,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,condition_top10,Knee Osteoarthritis,5.0,,,,5.0,1,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,condition_top10,Obesity,6.0,8.0,-2.0,-25.0,8.67,3,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,condition_top10,Obesity & Overweight,5.0,,,,7.0,2,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,condition_top10,Postoperative Pain,7.0,9.0,-2.0,-22.2,12.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,phase,Early Phase 1,10.0,5.0,5.0,100.0,6.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,phase,Not applicable,379.0,546.0,-167.0,-30.6,505.75,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,phase,Observational / other,190.0,255.0,-65.0,-25.5,243.25,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,phase,Phase 1,41.0,40.0,1.0,2.5,46.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,phase,Phase 1/2,16.0,17.0,-1.0,-5.9,16.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,phase,Phase 2,55.0,64.0,-9.0,-14.1,68.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,phase,Phase 2/3,2.0,7.0,-5.0,-71.4,6.75,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,phase,Phase 3,29.0,32.0,-3.0,-9.4,34.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,phase,Phase 4,29.0,37.0,-8.0,-21.6,37.25,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,sponsor_class,AMBIG,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,sponsor_class,FED,1.0,3.0,-2.0,-66.7,2.75,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,sponsor_class,INDIV,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,sponsor_class,INDUSTRY,113.0,144.0,-31.0,-21.5,144.75,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,sponsor_class,NETWORK,5.0,3.0,2.0,66.7,4.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,sponsor_class,NIH,2.0,3.0,-1.0,-33.3,1.75,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,sponsor_class,OTHER,599.0,796.0,-197.0,-24.7,770.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,sponsor_class,OTHER_GOV,29.0,50.0,-21.0,-42.0,39.25,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,sponsor_class,UNKNOWN,2.0,4.0,-2.0,-50.0,2.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,study_type,EXPANDED_ACCESS,1.0,3.0,-2.0,-66.7,2.0,2,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,study_type,INTERVENTIONAL,561.0,748.0,-187.0,-25.0,721.75,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,study_type,OBSERVATIONAL,187.0,248.0,-61.0,-24.6,239.75,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,study_type,UNKNOWN,2.0,4.0,-2.0,-50.0,2.5,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,new_trials,total,All,751.0,1003.0,-252.0,-25.1,965.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,ACTIVE_NOT_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,APPROVED_FOR_MARKETING,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,COMPLETED,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,ENROLLING_BY_INVITATION,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,NOT_YET_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,NO_LONGER_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,RECRUITING,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,SUSPENDED,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,TEMPORARILY_NOT_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,TERMINATED,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,UNKNOWN,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,WITHDRAWN,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,to_status,WITHHELD,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-12,2026-10-18,status_changes,total,All,0.0,0.0,0.0,,0.0,4,2026-10-19,True,1.0.0
+2026-10-19,2026-10-25,countries_with_new_sites,total,All,80.0,74.0,6.0,8.1,77.25,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,industry_share_new_trials_pct,total,All,14.6,15.0,-0.40000000000000036,-2.7,14.78,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,median_planned_enrollment,phase,Early Phase 1,29.0,35.0,-6.0,-17.1,29.25,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,median_planned_enrollment,phase,Not applicable,78.0,66.0,12.0,18.2,71.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,median_planned_enrollment,phase,Observational / other,150.0,134.5,15.5,11.5,129.13,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,median_planned_enrollment,phase,Phase 1,50.0,64.0,-14.0,-21.9,46.88,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,median_planned_enrollment,phase,Phase 1/2,57.0,60.0,-3.0,-5.0,75.25,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,median_planned_enrollment,phase,Phase 2,55.5,76.0,-20.5,-27.0,66.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,median_planned_enrollment,phase,Phase 2/3,124.0,108.0,16.0,14.8,96.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,median_planned_enrollment,phase,Phase 3,281.0,398.0,-117.0,-29.4,329.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,median_planned_enrollment,phase,Phase 4,120.0,112.0,8.0,7.1,105.38,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,median_planned_enrollment,total,All,90.0,88.0,2.0,2.3,87.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,country_top10,Argentina,36.0,,,,36.0,1,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,country_top10,China,375.0,239.0,136.0,56.9,292.25,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,country_top10,Egypt,67.0,59.0,8.0,13.6,60.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,country_top10,France,130.0,92.0,38.0,41.3,109.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,country_top10,Germany,57.0,,,,63.0,2,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,country_top10,Italy,144.0,63.0,81.0,128.6,83.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,country_top10,Pakistan,36.0,,,,36.0,1,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,country_top10,Spain,42.0,38.0,4.0,10.5,65.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,country_top10,Turkey (Türkiye),143.0,102.0,41.0,40.2,134.5,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,country_top10,United States,438.0,259.0,179.0,69.1,456.5,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trial_sites,total,All,1963.0,1268.0,695.0,54.8,1893.5,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,condition_top10,Anxiety,13.0,11.0,2.0,18.2,13.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,condition_top10,Breast Cancer,14.0,9.0,5.0,55.6,11.0,3,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,condition_top10,Critical Illness,7.0,,,,7.0,1,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,condition_top10,Dementia,7.0,,,,7.0,1,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,condition_top10,Healthy,7.0,,,,7.0,1,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,condition_top10,Healthy Volunteers,9.0,,,,9.0,2,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,condition_top10,Obesity,9.0,6.0,3.0,50.0,8.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,condition_top10,Postoperative Pain,10.0,7.0,3.0,42.9,11.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,condition_top10,Prostate Cancer,8.0,,,,8.0,1,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,condition_top10,Stroke,11.0,,,,9.5,2,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,phase,Early Phase 1,13.0,10.0,3.0,30.0,7.25,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,phase,Not applicable,551.0,379.0,172.0,45.4,501.25,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,phase,Observational / other,283.0,190.0,93.0,48.9,251.5,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,phase,Phase 1,45.0,41.0,4.0,9.8,45.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,phase,Phase 1/2,20.0,16.0,4.0,25.0,17.5,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,phase,Phase 2,79.0,55.0,24.0,43.6,66.25,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,phase,Phase 2/3,11.0,2.0,9.0,450.0,7.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,phase,Phase 3,36.0,29.0,7.0,24.1,32.5,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,phase,Phase 4,29.0,29.0,0.0,0.0,35.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,sponsor_class,AMBIG,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,sponsor_class,FED,4.0,1.0,3.0,300.0,2.5,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,sponsor_class,INDIV,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,sponsor_class,INDUSTRY,156.0,113.0,43.0,38.1,142.25,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,sponsor_class,NETWORK,7.0,5.0,2.0,40.0,4.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,sponsor_class,NIH,5.0,2.0,3.0,150.0,2.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,sponsor_class,OTHER,849.0,599.0,250.0,41.7,769.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,sponsor_class,OTHER_GOV,40.0,29.0,11.0,37.9,38.5,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,sponsor_class,UNKNOWN,6.0,2.0,4.0,200.0,3.5,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,study_type,EXPANDED_ACCESS,1.0,1.0,0.0,0.0,1.67,3,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,study_type,INTERVENTIONAL,784.0,561.0,223.0,39.8,711.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,study_type,OBSERVATIONAL,276.0,187.0,89.0,47.6,246.75,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,study_type,UNKNOWN,6.0,2.0,4.0,200.0,3.5,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,new_trials,total,All,1067.0,751.0,316.0,42.1,963.25,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,ACTIVE_NOT_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,APPROVED_FOR_MARKETING,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,COMPLETED,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,ENROLLING_BY_INVITATION,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,NOT_YET_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,NO_LONGER_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,RECRUITING,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,SUSPENDED,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,TEMPORARILY_NOT_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,TERMINATED,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,UNKNOWN,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,WITHDRAWN,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,to_status,WITHHELD,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-19,2026-10-25,status_changes,total,All,0.0,0.0,0.0,,0.0,4,2026-10-26,True,1.0.0
+2026-10-26,2026-11-01,countries_with_new_sites,total,All,70.0,80.0,-10.0,-12.5,75.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,industry_share_new_trials_pct,total,All,16.6,14.6,2.0000000000000018,13.7,15.15,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,median_planned_enrollment,phase,Early Phase 1,30.0,29.0,1.0,3.4,35.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,median_planned_enrollment,phase,Not applicable,68.0,78.0,-10.0,-12.8,70.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,median_planned_enrollment,phase,Observational / other,179.0,150.0,29.0,19.3,143.88,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,median_planned_enrollment,phase,Phase 1,40.0,50.0,-10.0,-20.0,49.13,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,median_planned_enrollment,phase,Phase 1/2,81.0,57.0,24.0,42.1,74.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,median_planned_enrollment,phase,Phase 2,60.0,55.5,4.5,8.1,66.13,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,median_planned_enrollment,phase,Phase 2/3,60.0,124.0,-64.0,-51.6,91.75,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,median_planned_enrollment,phase,Phase 3,391.0,281.0,110.0,39.1,344.25,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,median_planned_enrollment,phase,Phase 4,98.0,120.0,-22.0,-18.3,107.38,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,median_planned_enrollment,total,All,84.0,90.0,-6.0,-6.7,88.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,country_top10,Canada,52.0,,,,52.0,1,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,country_top10,China,395.0,375.0,20.0,5.3,319.25,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,country_top10,Egypt,85.0,67.0,18.0,26.9,67.75,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,country_top10,France,114.0,130.0,-16.0,-12.3,104.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,country_top10,Italy,82.0,144.0,-62.0,-43.1,92.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,country_top10,Pakistan,48.0,36.0,12.0,33.3,42.0,2,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,country_top10,South Korea,38.0,,,,28.5,2,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,country_top10,Spain,99.0,42.0,57.0,135.7,66.75,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,country_top10,Turkey (Türkiye),155.0,143.0,12.0,8.4,140.75,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,country_top10,United States,355.0,438.0,-83.0,-18.9,419.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trial_sites,total,All,2055.0,1963.0,92.0,4.7,1892.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,condition_top10,Acute Ischemic Stroke,8.0,,,,8.0,1,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,condition_top10,Anxiety,12.0,13.0,-1.0,-7.7,13.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,condition_top10,Atrial Fibrillation (AF),8.0,,,,8.0,1,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,condition_top10,Breast Cancer,17.0,14.0,3.0,21.4,12.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,condition_top10,Healthy Adult Participants,6.0,,,,6.0,1,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,condition_top10,Hypertension,7.0,,,,6.5,2,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,condition_top10,Obesity,7.0,9.0,-2.0,-22.2,7.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,condition_top10,Obesity & Overweight,10.0,,,,7.5,2,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,condition_top10,Postoperative Pain,10.0,10.0,0.0,0.0,9.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,condition_top10,Stroke,12.0,11.0,1.0,9.1,10.33,3,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,phase,Early Phase 1,14.0,13.0,1.0,7.7,10.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,phase,Not applicable,591.0,551.0,40.0,7.3,516.75,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,phase,Observational / other,268.0,283.0,-15.0,-5.3,249.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,phase,Phase 1,62.0,45.0,17.0,37.8,47.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,phase,Phase 1/2,21.0,20.0,1.0,5.0,18.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,phase,Phase 2,81.0,79.0,2.0,2.5,69.75,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,phase,Phase 2/3,9.0,11.0,-2.0,-18.2,7.25,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,phase,Phase 3,48.0,36.0,12.0,33.3,36.25,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,phase,Phase 4,47.0,29.0,18.0,62.1,35.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,sponsor_class,AMBIG,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,sponsor_class,FED,5.0,4.0,1.0,25.0,3.25,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,sponsor_class,INDIV,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,sponsor_class,INDUSTRY,189.0,156.0,33.0,21.2,150.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,sponsor_class,NETWORK,8.0,7.0,1.0,14.3,5.75,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,sponsor_class,NIH,2.0,5.0,-3.0,-60.0,3.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,sponsor_class,OTHER,902.0,849.0,53.0,6.2,786.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,sponsor_class,OTHER_GOV,33.0,40.0,-7.0,-17.5,38.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,sponsor_class,UNKNOWN,2.0,6.0,-4.0,-66.7,3.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,study_type,EXPANDED_ACCESS,2.0,1.0,1.0,100.0,1.75,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,study_type,INTERVENTIONAL,873.0,784.0,89.0,11.4,741.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,study_type,OBSERVATIONAL,264.0,276.0,-12.0,-4.3,243.75,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,study_type,UNKNOWN,2.0,6.0,-4.0,-66.7,3.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,new_trials,total,All,1141.0,1067.0,74.0,6.9,990.5,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,ACTIVE_NOT_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,APPROVED_FOR_MARKETING,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,COMPLETED,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,ENROLLING_BY_INVITATION,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,NOT_YET_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,NO_LONGER_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,SUSPENDED,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,TEMPORARILY_NOT_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,TERMINATED,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,UNKNOWN,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,WITHDRAWN,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,to_status,WITHHELD,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-10-26,2026-11-01,status_changes,total,All,0.0,0.0,0.0,,0.0,4,2026-11-02,True,1.0.0
+2026-11-02,2026-11-08,countries_with_new_sites,total,All,87.0,70.0,17.0,24.3,77.75,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,industry_share_new_trials_pct,total,All,14.8,16.6,-1.8000000000000007,-10.8,15.25,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,median_planned_enrollment,phase,Early Phase 1,16.0,30.0,-14.0,-46.7,27.5,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,median_planned_enrollment,phase,Not applicable,68.0,68.0,0.0,0.0,70.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,median_planned_enrollment,phase,Observational / other,150.0,179.0,-29.0,-16.2,153.38,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,median_planned_enrollment,phase,Phase 1,42.0,40.0,2.0,5.0,49.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,median_planned_enrollment,phase,Phase 1/2,126.0,81.0,45.0,55.6,81.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,median_planned_enrollment,phase,Phase 2,59.5,60.0,-0.5,-0.8,62.75,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,median_planned_enrollment,phase,Phase 2/3,435.0,60.0,375.0,625.0,181.75,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,median_planned_enrollment,phase,Phase 3,310.0,391.0,-81.0,-20.7,345.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,median_planned_enrollment,phase,Phase 4,100.0,98.0,2.0,2.0,107.5,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,median_planned_enrollment,total,All,80.0,84.0,-4.0,-4.8,85.5,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,country_top10,China,487.0,395.0,92.0,23.3,374.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,country_top10,Czechia,68.0,,,,68.0,1,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,country_top10,Egypt,68.0,85.0,-17.0,-20.0,69.75,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,country_top10,France,92.0,114.0,-22.0,-19.3,107.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,country_top10,Italy,116.0,82.0,34.0,41.5,101.25,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,country_top10,Japan,57.0,,,,57.0,1,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,country_top10,Pakistan,59.0,48.0,11.0,22.9,47.67,3,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,country_top10,Spain,61.0,99.0,-38.0,-38.4,60.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,country_top10,Turkey (Türkiye),129.0,155.0,-26.0,-16.8,132.25,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,country_top10,United States,490.0,355.0,135.0,38.0,385.5,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trial_sites,total,All,2390.0,2055.0,335.0,16.3,1919.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,condition_top10,Anxiety,13.0,12.0,1.0,8.3,12.25,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,condition_top10,Breast Cancer,11.0,17.0,-6.0,-35.3,12.75,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,condition_top10,Chronic Pain,9.0,,,,9.0,1,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,condition_top10,Coronary Artery Disease,8.0,,,,8.0,2,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,condition_top10,Critical Illness,9.0,,,,8.0,2,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,condition_top10,Hypertension,9.0,7.0,2.0,28.6,7.33,3,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,condition_top10,Obesity,12.0,7.0,5.0,71.4,8.5,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,condition_top10,Postoperative Pain,13.0,10.0,3.0,30.0,10.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,condition_top10,Stroke,15.0,12.0,3.0,25.0,12.67,3,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,condition_top10,Type 2 Diabetes Mellitus,9.0,,,,9.0,1,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,phase,Early Phase 1,7.0,14.0,-7.0,-50.0,11.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,phase,Not applicable,656.0,591.0,65.0,11.0,544.25,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,phase,Observational / other,263.0,268.0,-5.0,-1.9,251.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,phase,Phase 1,73.0,62.0,11.0,17.7,55.25,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,phase,Phase 1/2,19.0,21.0,-2.0,-9.5,19.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,phase,Phase 2,92.0,81.0,11.0,13.6,76.75,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,phase,Phase 2/3,8.0,9.0,-1.0,-11.1,7.5,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,phase,Phase 3,44.0,48.0,-4.0,-8.3,39.25,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,phase,Phase 4,43.0,47.0,-4.0,-8.5,37.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,sponsor_class,AMBIG,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,sponsor_class,FED,1.0,5.0,-4.0,-80.0,2.75,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,sponsor_class,INDIV,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,sponsor_class,INDUSTRY,178.0,189.0,-11.0,-5.8,159.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,sponsor_class,NETWORK,6.0,8.0,-2.0,-25.0,6.5,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,sponsor_class,NIH,3.0,2.0,1.0,50.0,3.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,sponsor_class,OTHER,965.0,902.0,63.0,7.0,828.75,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,sponsor_class,OTHER_GOV,48.0,33.0,15.0,45.5,37.5,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,sponsor_class,UNKNOWN,4.0,2.0,2.0,100.0,3.5,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,study_type,EXPANDED_ACCESS,1.0,2.0,-1.0,-50.0,1.25,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,study_type,INTERVENTIONAL,942.0,873.0,69.0,7.9,790.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,study_type,OBSERVATIONAL,258.0,264.0,-6.0,-2.3,246.25,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,study_type,UNKNOWN,4.0,2.0,2.0,100.0,3.5,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,new_trials,total,All,1205.0,1141.0,64.0,5.6,1041.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,ACTIVE_NOT_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,APPROVED_FOR_MARKETING,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,COMPLETED,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,ENROLLING_BY_INVITATION,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,NOT_YET_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,NO_LONGER_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,SUSPENDED,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,TEMPORARILY_NOT_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,TERMINATED,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,UNKNOWN,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,WITHDRAWN,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,to_status,WITHHELD,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-02,2026-11-08,status_changes,total,All,0.0,0.0,0.0,,0.0,4,2026-11-09,True,1.0.0
+2026-11-09,2026-11-15,countries_with_new_sites,total,All,72.0,87.0,-15.0,-17.2,77.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,industry_share_new_trials_pct,total,All,15.2,14.8,0.3999999999999986,2.7,15.3,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,median_planned_enrollment,phase,Early Phase 1,20.0,16.0,4.0,25.0,23.75,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,median_planned_enrollment,phase,Not applicable,75.0,68.0,7.0,10.3,72.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,median_planned_enrollment,phase,Observational / other,200.0,150.0,50.0,33.3,169.75,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,median_planned_enrollment,phase,Phase 1,42.0,42.0,0.0,0.0,43.5,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,median_planned_enrollment,phase,Phase 1/2,68.0,126.0,-58.0,-46.0,83.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,median_planned_enrollment,phase,Phase 2,86.0,59.5,26.5,44.5,65.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,median_planned_enrollment,phase,Phase 2/3,178.5,435.0,-256.5,-59.0,199.38,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,median_planned_enrollment,phase,Phase 3,312.0,310.0,2.0,0.6,323.5,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,median_planned_enrollment,phase,Phase 4,95.0,100.0,-5.0,-5.0,103.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,median_planned_enrollment,total,All,90.0,80.0,10.0,12.5,86.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,country_top10,China,257.0,487.0,-230.0,-47.2,378.5,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,country_top10,Egypt,76.0,68.0,8.0,11.8,74.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,country_top10,France,101.0,92.0,9.0,9.8,109.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,country_top10,Germany,60.0,,,,58.5,2,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,country_top10,Italy,77.0,116.0,-39.0,-33.6,104.75,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,country_top10,Poland,52.0,,,,52.0,1,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,country_top10,South Korea,52.0,,,,45.0,2,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,country_top10,Spain,115.0,61.0,54.0,88.5,79.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,country_top10,Turkey (Türkiye),114.0,129.0,-15.0,-11.6,135.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,country_top10,United States,489.0,490.0,-1.0,-0.2,443.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trial_sites,total,All,2088.0,2390.0,-302.0,-12.6,2124.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,condition_top10,Anxiety,16.0,13.0,3.0,23.1,13.5,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,condition_top10,Breast Cancer,7.0,11.0,-4.0,-36.4,12.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,condition_top10,Cancer,7.0,,,,7.0,1,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,condition_top10,Colorectal Cancer,8.0,,,,8.0,1,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,condition_top10,Depression,10.0,,,,10.0,1,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,condition_top10,Multiple Sclerosis,8.0,,,,8.0,1,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,condition_top10,Obesity & Overweight,8.0,,,,9.0,2,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,condition_top10,Pain,8.0,,,,8.0,1,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,condition_top10,Postoperative Pain,12.0,13.0,-1.0,-7.7,11.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,condition_top10,Stroke,15.0,15.0,0.0,0.0,13.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,phase,Early Phase 1,7.0,7.0,0.0,0.0,10.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,phase,Not applicable,565.0,656.0,-91.0,-13.9,590.75,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,phase,Observational / other,228.0,263.0,-35.0,-13.3,260.5,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,phase,Phase 1,54.0,73.0,-19.0,-26.0,58.5,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,phase,Phase 1/2,16.0,19.0,-3.0,-15.8,19.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,phase,Phase 2,70.0,92.0,-22.0,-23.9,80.5,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,phase,Phase 2/3,12.0,8.0,4.0,50.0,10.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,phase,Phase 3,39.0,44.0,-5.0,-11.4,41.75,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,phase,Phase 4,37.0,43.0,-6.0,-14.0,39.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,sponsor_class,AMBIG,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,sponsor_class,FED,4.0,1.0,3.0,300.0,3.5,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,sponsor_class,INDIV,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,sponsor_class,INDUSTRY,156.0,178.0,-22.0,-12.4,169.75,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,sponsor_class,NETWORK,3.0,6.0,-3.0,-50.0,6.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,sponsor_class,NIH,2.0,3.0,-1.0,-33.3,3.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,sponsor_class,OTHER,819.0,965.0,-146.0,-15.1,883.75,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,sponsor_class,OTHER_GOV,39.0,48.0,-9.0,-18.8,40.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,sponsor_class,UNKNOWN,5.0,4.0,1.0,25.0,4.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,study_type,INTERVENTIONAL,800.0,942.0,-142.0,-15.1,849.75,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,study_type,OBSERVATIONAL,223.0,258.0,-35.0,-13.6,255.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,study_type,UNKNOWN,5.0,4.0,1.0,25.0,4.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,new_trials,total,All,1028.0,1205.0,-177.0,-14.7,1110.25,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,ACTIVE_NOT_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,APPROVED_FOR_MARKETING,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,COMPLETED,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,ENROLLING_BY_INVITATION,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,NOT_YET_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,NO_LONGER_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,SUSPENDED,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,TEMPORARILY_NOT_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,TERMINATED,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,UNKNOWN,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,WITHDRAWN,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,to_status,WITHHELD,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-09,2026-11-15,status_changes,total,All,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
