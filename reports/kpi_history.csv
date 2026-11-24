@@ -564,3 +564,97 @@ week_start,week_end,kpi_name,dimension,dimension_value,value,prev_week_value,wow
 2026-11-09,2026-11-15,status_changes,to_status,WITHDRAWN,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
 2026-11-09,2026-11-15,status_changes,to_status,WITHHELD,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
 2026-11-09,2026-11-15,status_changes,total,All,0.0,0.0,0.0,,0.0,4,2026-11-16,True,1.0.0
+2026-11-16,2026-11-22,countries_with_new_sites,total,All,70.0,72.0,-2.0,-2.8,74.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,industry_share_new_trials_pct,total,All,15.3,15.2,0.10000000000000142,0.7,15.48,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,median_planned_enrollment,phase,Early Phase 1,40.0,20.0,20.0,100.0,26.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,median_planned_enrollment,phase,Not applicable,68.0,75.0,-7.0,-9.3,69.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,median_planned_enrollment,phase,Observational / other,150.0,200.0,-50.0,-25.0,169.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,median_planned_enrollment,phase,Phase 1,36.0,42.0,-6.0,-14.3,40.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,median_planned_enrollment,phase,Phase 1/2,72.0,68.0,4.0,5.9,86.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,median_planned_enrollment,phase,Phase 2,54.5,86.0,-31.5,-36.6,65.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,median_planned_enrollment,phase,Phase 2/3,180.0,178.5,1.5,0.8,213.38,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,median_planned_enrollment,phase,Phase 3,394.5,312.0,82.5,26.4,351.88,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,median_planned_enrollment,phase,Phase 4,130.0,95.0,35.0,36.8,105.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,median_planned_enrollment,total,All,80.0,90.0,-10.0,-11.1,83.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,country_top10,Brazil,46.0,,,,46.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,country_top10,Canada,43.0,,,,47.5,2,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,country_top10,China,293.0,257.0,36.0,14.0,358.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,country_top10,Egypt,76.0,76.0,0.0,0.0,76.25,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,country_top10,France,169.0,101.0,68.0,67.3,119.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,country_top10,Italy,93.0,77.0,16.0,20.8,92.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,country_top10,South Korea,40.0,52.0,-12.0,-23.1,43.33,3,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,country_top10,Spain,65.0,115.0,-50.0,-43.5,85.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,country_top10,Turkey (Türkiye),148.0,114.0,34.0,29.8,136.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,country_top10,United States,257.0,489.0,-232.0,-47.4,397.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trial_sites,total,All,1617.0,2088.0,-471.0,-22.6,2037.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,condition_top10,Anxiety,18.0,16.0,2.0,12.5,14.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,condition_top10,Breast Cancer,11.0,7.0,4.0,57.1,11.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,condition_top10,Healthy Volunteers,7.0,,,,7.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,condition_top10,Heart Failure,7.0,,,,7.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,condition_top10,Obesity,17.0,,,,12.0,3,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,condition_top10,Overweight,7.0,,,,7.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,condition_top10,Postoperative Pain,15.0,12.0,3.0,25.0,12.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,condition_top10,Prostate Cancer,9.0,,,,9.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,condition_top10,Sepsis,7.0,,,,7.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,condition_top10,Stroke,10.0,15.0,-5.0,-33.3,13.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,phase,Early Phase 1,6.0,7.0,-1.0,-14.3,8.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,phase,Not applicable,613.0,565.0,48.0,8.5,606.25,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,phase,Observational / other,257.0,228.0,29.0,12.7,254.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,phase,Phase 1,67.0,54.0,13.0,24.1,64.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,phase,Phase 1/2,27.0,16.0,11.0,68.8,20.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,phase,Phase 2,75.0,70.0,5.0,7.1,79.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,phase,Phase 2/3,8.0,12.0,-4.0,-33.3,9.25,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,phase,Phase 3,36.0,39.0,-3.0,-7.7,41.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,phase,Phase 4,33.0,37.0,-4.0,-10.8,40.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,sponsor_class,AMBIG,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,sponsor_class,FED,2.0,4.0,-2.0,-50.0,3.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,sponsor_class,INDIV,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,sponsor_class,INDUSTRY,172.0,156.0,16.0,10.3,173.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,sponsor_class,NETWORK,5.0,3.0,2.0,66.7,5.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,sponsor_class,NIH,4.0,2.0,2.0,100.0,2.75,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,sponsor_class,OTHER,882.0,819.0,63.0,7.7,892.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,sponsor_class,OTHER_GOV,54.0,39.0,15.0,38.5,43.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,sponsor_class,UNKNOWN,3.0,5.0,-2.0,-40.0,3.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,study_type,EXPANDED_ACCESS,1.0,,,,1.33,3,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,study_type,INTERVENTIONAL,865.0,800.0,65.0,8.1,870.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,study_type,OBSERVATIONAL,253.0,223.0,30.0,13.5,249.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,study_type,UNKNOWN,3.0,5.0,-2.0,-40.0,3.5,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,new_trials,total,All,1122.0,1028.0,94.0,9.1,1124.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,ACTIVE_NOT_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,APPROVED_FOR_MARKETING,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,COMPLETED,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,ENROLLING_BY_INVITATION,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,NOT_YET_RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,NO_LONGER_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,RECRUITING,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,SUSPENDED,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,TEMPORARILY_NOT_AVAILABLE,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,TERMINATED,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,UNKNOWN,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,WITHDRAWN,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,to_status,WITHHELD,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,status_changes,total,All,0.0,0.0,0.0,,0.0,4,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,stopped_trials,stop_reason,Business / funding decision,57.0,,,,57.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,stopped_trials,stop_reason,COVID-19,3.0,,,,3.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,stopped_trials,stop_reason,Low enrollment / recruitment,39.0,,,,39.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,stopped_trials,stop_reason,Not provided,1.0,,,,1.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,stopped_trials,stop_reason,Other,25.0,,,,25.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,stopped_trials,stop_reason,Safety / efficacy,12.0,,,,12.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,stopped_trials,stop_reason,Study team / site / logistics,17.0,,,,17.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,stopped_trials,total,All,154.0,,,,154.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,ACTIVE_NOT_RECRUITING,812.0,,,,812.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,APPROVED_FOR_MARKETING,0.0,,,,0.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,AVAILABLE,3.0,,,,3.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,COMPLETED,1159.0,,,,1159.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,ENROLLING_BY_INVITATION,139.0,,,,139.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,NOT_YET_RECRUITING,948.0,,,,948.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,NO_LONGER_AVAILABLE,1.0,,,,1.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,RECRUITING,2070.0,,,,2070.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,SUSPENDED,30.0,,,,30.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,TEMPORARILY_NOT_AVAILABLE,0.0,,,,0.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,TERMINATED,93.0,,,,93.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,UNKNOWN,0.0,,,,0.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,WITHDRAWN,31.0,,,,31.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,current_status,WITHHELD,14.0,,,,14.0,1,2026-11-24,False,1.0.0
+2026-11-16,2026-11-22,updated_trials,total,All,5300.0,,,,5300.0,1,2026-11-24,False,1.0.0
