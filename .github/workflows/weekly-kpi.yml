@@ -1,0 +1,129 @@
+name: Weekly KPI refresh
+
+on:
+  schedule:
+    # Every Monday 03:30 UTC = 09:00 IST, after the previous ISO week has fully closed.
+    - cron: "30 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      run_date:
+        description: "Optional run date (YYYY-MM-DD). Blank = today (UTC)."
+        required: false
+        default: ""
+
+permissions:
+  contents: write   # needed to commit the refreshed reports and state snapshot
+
+concurrency:
+  # never let two refreshes write the snapshot at the same time
+  group: weekly-kpi-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    name: Extract, transform, check, publish
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONUNBUFFERED: "1"
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: |
+            requirements.txt
+            requirements-dev.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Run tests
+        run: python -m pytest
+
+      - name: Run KPI pipeline
+        id: pipeline
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          REPORT_TO: ${{ secrets.REPORT_TO }}
+          RUN_DATE: ${{ github.event.inputs.run_date }}
+        run: |
+          if [ -n "$RUN_DATE" ]; then
+            python -m pipeline.run --run-date "$RUN_DATE"
+          else
+            python -m pipeline.run
+          fi
+
+      - name: Add report to job summary
+        if: steps.pipeline.outputs.published == 'true'
+        run: |
+          {
+            echo "### Weekly KPI refresh succeeded"
+            echo ""
+            echo "Email sent: ${{ steps.pipeline.outputs.email_sent || 'false (secrets not set)' }}"
+            echo ""
+            sed -n '1,/^## Charts/p' reports/latest.md | sed '$d'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit refreshed reports and state snapshot
+        # runs even if the email step failed, as long as the data was published
+        if: always() && steps.pipeline.outputs.published == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports/ data/state/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: weekly KPI refresh $(date -u +%F)"
+          for attempt in 1 2 3; do
+            git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && exit 0
+            echo "Push attempt $attempt failed, retrying..." && sleep $((attempt * 5))
+          done
+          echo "::error title=Commit failed::Could not push the weekly refresh commit"
+          exit 1
+
+      - name: Upload HTML report
+        if: always() && steps.pipeline.outputs.published == 'true'
+        uses: actions/upload-artifact@v6
+        with:
+          name: kpi-report-${{ github.run_id }}
+          path: |
+            reports/latest.html
+            reports/latest.md
+            reports/figures/
+            reports/kpi_history.csv
+          retention-days: 90
+
+      - name: Upload pipeline log
+        if: always()
+        uses: actions/upload-artifact@v6
+        with:
+          name: pipeline-log-${{ github.run_id }}
+          path: logs/pipeline.log
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Explain failure
+        if: failure()
+        run: |
+          {
+            echo "### Weekly KPI refresh FAILED"
+            echo ""
+            echo "Nothing was emailed. The state snapshot was only updated if the 'published' step completed."
+            echo ""
+            echo "Last 25 log lines (structured JSON):"
+            echo '```'
+            tail -n 25 logs/pipeline.log 2>/dev/null || echo "(no pipeline log - the failure happened before the pipeline started, e.g. in tests)"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          grep '"level": "ERROR"' logs/pipeline.log 2>/dev/null | tail -n 5 | while read -r line; do
+            echo "::error title=Pipeline error::$line"
+          done || true
